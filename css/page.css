@@ -1,0 +1,53 @@
+.content{
+    display: flex;
+}
+
+.description{
+    display: flex;
+    justify-content: space-around;
+}
+
+h2{
+    font-family:'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+.card {
+    text-align: center;
+    padding: 15px;
+    margin-top: 60px;
+    width: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: bisque;
+}
+
+#livro{
+    margin: 30px;
+    margin-top: 60px;
+    width: 450px;
+    height: 630px;
+}
+
+details {
+    text-align: left;
+}
+
+summary{
+    font-size: 30px;
+}
+
+.description li{
+    font-size: 30px;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card > * {
+    font-family: 'Amatic SC', cursive;
+}
+
+.card > p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}

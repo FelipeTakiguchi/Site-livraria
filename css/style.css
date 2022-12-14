@@ -1,0 +1,94 @@
+header{
+    background: linear-gradient(105deg, rgba(0,4,36,1) 0%, rgba(26,5,85,1) 20%, rgba(101,9,121,1) 47%, rgba(255,0,206,1) 78%, rgba(255,0,121,0.4234068627450981) 96%);
+    color: white;
+    margin-top: -10px;
+    height: 40px;
+    width: 1861px;
+    margin-left: -10px;
+    padding: 7px;
+    display: flex;
+}
+
+*{
+    font-family: 'Dancing Script', cursive;
+}
+
+header img{
+    width: 60px;
+    height: 35px;  
+    background-color: white;
+}
+
+header #pesquisa{
+    margin: 10px;
+    position: absolute;
+    right: 10px;
+}
+
+#pesquisa input{
+    margin-right: 10px;
+    height: 22px;
+    border-radius: 9px;
+    border-width: 0.5px;
+    box-shadow: #383836 2px 3px 4px 2px;
+}
+
+button:hover{
+    opacity: 80%;
+    transform: scale(1.06);
+}
+
+#pesquisa button{
+    border-radius: 7px;
+    border-width: 0px;
+    box-shadow: rgba(0, 0, 0, 0.56) 2px 3px 4px 2px;
+    background-color: #ccff33;
+    height: 20px;
+}
+
+header a{
+    margin-top: -15px;
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+}
+
+header a:hover{
+    opacity: 50%;
+}
+
+#content{
+    display: flex;
+    
+    overflow-x: scroll;
+}
+
+a > img{
+    margin: 20px;
+    width: 400px;
+    height: 600px;
+}
+
+#titulo{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+a:hover{
+    transform:translateY(10%);
+    opacity: 60%;
+    transition: 2s;
+}
+
+footer{
+    background: linear-gradient(105deg, rgba(0,4,36,1) 0%, rgba(26,5,85,1) 20%, rgba(101,9,121,1) 47%, rgba(255,0,206,1) 78%, rgba(255,0,121,0.4234068627450981) 96%);
+    width: 1875px;
+    height: 120px;
+    margin-left: -10px;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    color: aliceblue;
+}
